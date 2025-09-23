@@ -1,1 +1,1 @@
-This is a game created as my final project in CS-211. I worked mostly on the front end design particulary the files 
+This is a game created as my final project in CS-211. I primarily worked on the front-end design, specifically the "Reverse-Minesweeper.java" and "UIManager.java" files. Reverse Minesweeper is a unique twist on the original Minesweeper. Instead of placing flags on the field based on the tile numbers to locate bombs, you are tasked with placing the correct tile number around the bombs

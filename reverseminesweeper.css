@@ -1,0 +1,124 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@font-face 
+{
+    src: url("bytebounce.ttf");
+}
+
+/* Background styling */
+.background-grey 
+{
+    -fx-background-color: #c0c0c0;
+}
+
+/* Font styles */
+.title-font 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.subtitle-font 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 30px;
+    -fx-font-weight: normal;
+}
+
+.label-bold 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.label-big
+{
+	-fx-font-family: "ByteBounce";
+    -fx-font-size: 95px;
+    -fx-font-weight: bold;
+}
+
+
+.button-style 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-border-width: 3px;
+    -fx-border-color: black;
+}
+.button:hover 
+{
+    -fx-background-color: EEEEEE;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow(one-pass-box, white, 5, 0, 0, 0);
+}
+
+.timer-label 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 95px;
+    -fx-font-weight: bold;
+    -fx-padding: 20 0 10 0;
+}
+
+/* Radio styling */
+.radio-button 
+{
+    -fx-font-family: "ByteBounce";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-color: #444;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-padding: 30 20;
+    -fx-cursor: hand;
+}
+.radio-button .radio 
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-shape: ""; 
+    -fx-padding: 0;
+}
+
+.radio-button:selected .radio 
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.radio-button:selected 
+{
+    -fx-background-color: #666;
+    -fx-border-color: blue;
+    
+}
+
+.radio-button:hover 
+{
+    -fx-background-color: #777;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow(one-pass-box, white, 5, 0, 0, 0);
+}
+
+/*Options toggle buttons*/
+.toggle-button {
+    -fx-pref-width: 300px;
+    -fx-min-height: 100px;
+    -fx-font-size: 35px;
+    -fx-background-radius: 8px;
+}
+
+.toggle-button:hover 
+{
+    -fx-background-color: EEEEEE;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow(one-pass-box, white, 5, 0, 0, 0);
+}
